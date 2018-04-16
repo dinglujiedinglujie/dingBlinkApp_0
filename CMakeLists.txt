@@ -3,5 +3,5 @@ project(dingC_1)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c blink.h)
+set(SOURCE_FILES blink.c blink.h)
 add_executable(dingC_1 ${SOURCE_FILES})
